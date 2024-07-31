@@ -1,0 +1,36 @@
+* {
+  text-align: center;
+  background-color:lavender;
+}
+.container {
+  margin-top: 100px;
+  
+}
+.input_space {
+  margin-bottom: 10px;
+}
+input {
+  height: 30px;
+  width: 20%;
+  font-size: 18px;
+}
+button {
+  margin-top: 10px;
+  height: 40px;
+  width: 20%;
+  background-color: rgb(3, 56, 3);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.logout {
+  margin-right: 5px;
+  color: white;
+  font-weight: 400;
+}
+.delete {
+  margin-right: 5px;
+  color: white;
+  background-color: rgb(19, 103, 142);
+  font-weight: 400;
+}

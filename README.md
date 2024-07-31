@@ -31,7 +31,7 @@ Your app is ready to be deployed!
 
 If you need full control over the configuration, you can `eject` the default setup. This command copies all configuration files and dependencies like webpack, Babel, and ESLint into your project, giving you complete control over them. All commands except `eject` will continue to work, but they will now reference your copied scripts. Proceed with caution!
 
-### 'Functionality'
+### `Functionality`
 
 1. **User Registration**:
    - Users register with name, email, and password.

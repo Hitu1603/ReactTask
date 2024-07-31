@@ -31,6 +31,35 @@ Your app is ready to be deployed!
 
 If you need full control over the configuration, you can `eject` the default setup. This command copies all configuration files and dependencies like webpack, Babel, and ESLint into your project, giving you complete control over them. All commands except `eject` will continue to work, but they will now reference your copied scripts. Proceed with caution!
 
+### 'Functionality'
+
+1. **User Registration**:
+   - Users register with name, email, and password.
+   - Validates email and password.
+   - Hashes and stores password in local storage.
+   - Reloads page on successful registration.
+
+2. **User Login**:
+   - Users log in with email and password.
+   - Validates credentials against stored data.
+   - Reloads page on successful login.
+
+3. **Profile Update**:
+   - Users can update name, email, and password.
+   - Validates new email and password.
+   - Hashes and updates password in local storage.
+   - Reloads page on successful update.
+
+4. **Form Toggling**:
+   - Switches between registration, login, and profile update forms.
+
+5. **Error Handling**:
+   - Displays error messages for invalid inputs.
+
+6. **Persistent Login State**:
+   - Checks local storage for login status.
+   - Displays `Home` component if user is logged in.
+
 ### More Information
 
 For more details on Create React App, refer to the [official documentation](https://facebook.github.io/create-react-app/docs/getting-started).\
